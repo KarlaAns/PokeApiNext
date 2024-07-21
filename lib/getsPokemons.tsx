@@ -10,7 +10,7 @@ export async function getPokemons() {
     };
   
     try {
-      const response = await fetch("https://pokeapi.co/api/v2/pokemon?limit=10", requestOptions);
+      const response = await fetch("https://pokeapi.co/api/v2/pokemon?limit=21", requestOptions);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
